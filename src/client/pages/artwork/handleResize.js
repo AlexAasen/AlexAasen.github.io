@@ -15,7 +15,7 @@ export default function handleResize(imgs){
     let divided = range(columns).map(() => [])
     const imgWidth = ((container.offsetWidth - (margin * (columns - 1))) / columns)
 
-    each((imgs || coreImgs), img => {
+    each(imgs, img => {
       const imgFactor = img.width / imgWidth
       img.height = img.height / imgFactor
       img.width = imgWidth

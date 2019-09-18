@@ -1,5 +1,4 @@
 //const Footer = require('common/Footer')
-import { useState, useEffect } from 'react'
 import styled from 'styled-components'
 
 import useWidth from 'hooks/useWidth'
@@ -22,7 +21,7 @@ const BlogContent = styled.div`
   padding: 20px;
   width: calc(100% - 40px);`
 
-export default function About(props) {
+export default function About() {
   let width = useWidth()
 
   return(

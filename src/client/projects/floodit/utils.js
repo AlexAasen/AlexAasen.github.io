@@ -32,7 +32,7 @@ export const mergeNeighbours = (board, color) => {
 
   do {
     merged = 0
-    
+
     each(board, (row, rowIdx) => {
       each(row, (col, colIdx) => {
         const surrounding = getSurrounding(board, rowIdx, colIdx)

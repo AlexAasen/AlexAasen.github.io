@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-import colors from 'variables/colors'
 import GalleryView from './GalleryView'
 
 const Page = styled.div``

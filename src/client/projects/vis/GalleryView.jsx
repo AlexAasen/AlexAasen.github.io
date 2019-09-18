@@ -5,9 +5,7 @@ class GalleryView extends React.Component {
   constructor(props){
     super(props)
     this.state = {
-      initial: true,
-      activeIdx: 0,
-      prevIdx: 0
+      activeIdx: 0
     }
   }
 
@@ -16,14 +14,13 @@ class GalleryView extends React.Component {
   }
 
   render(){
-    const { activeIdx, prevIdx, initial } = this.state
+    const { activeIdx } = this.state
     const { list } = this.props
 
     const backIdx = (activeIdx - 1) < 0 ? 0 : activeIdx - 1
     const nextIdx = (activeIdx + 1) > (list.length - 1) ? list.length - 1 : activeIdx + 1
     const prevDis = (activeIdx === 0) ? "disabled" : ''
     const nextDis = (activeIdx === (list.length - 1)) ? 'disabled' : ''
-    const anim = initial ? 'initial' : ((prevIdx > activeIdx) || (activeIdx === 0) ? "prev" : "next")
 
     const imgMarkup = list.map((item, idx) => {
       const styleClass = activeIdx === idx ? 'focus' : ''

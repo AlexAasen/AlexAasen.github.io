@@ -1,6 +1,4 @@
 import styled from 'styled-components'
-import fonts from 'variables/fonts'
-import colors from 'variables/colors'
 
 import ForceGraph from './ForceGraph'
 import Header from './Header'

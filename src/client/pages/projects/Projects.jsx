@@ -2,8 +2,6 @@ import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
 
 import projects from 'constants/projects'
-import colors from 'variables/colors'
-import mixins from 'variables/mixins'
 import fonts from 'variables/fonts'
 
 const Img = styled.img`

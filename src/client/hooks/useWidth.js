@@ -14,7 +14,7 @@ function useWidth() {
     }
   }, [])
 
-  return window.innerWidth
+  return width
 }
 
 module.exports = useWidth

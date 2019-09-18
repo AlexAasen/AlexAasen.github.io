@@ -12,8 +12,7 @@ const CSS_DIR = path.resolve(__dirname, 'client/scss')
 const alias = require('./alias')
 
 module.exports = (env, argv) => {
-  //const development = argv.mode === 'development'
-  const development = true
+  const development = argv.mode === 'development'
 
   const babelLoader = {
     test: /\.(js|jsx)$/,

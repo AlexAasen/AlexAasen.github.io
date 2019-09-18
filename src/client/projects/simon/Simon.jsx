@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import styled, { keyframes } from 'styled-components'
-import { range, each, flatten, delay } from 'lodash'
+import { range, each, delay } from 'lodash'
 import { getRandom } from 'utils/helpers'
 
 import Button from 'components/Button'

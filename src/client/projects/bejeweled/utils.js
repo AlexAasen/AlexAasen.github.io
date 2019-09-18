@@ -1,6 +1,6 @@
-import { range, each, flatten, delay, clone, every, maxBy } from 'lodash'
+import { each, clone, every } from 'lodash'
 
-const getPos = (board, rowIdx, colIdx, idx) => board?.[rowIdx]?.[colIdx]
+const getPos = (board, rowIdx, colIdx) => board?.[rowIdx]?.[colIdx]
 
 export const findMatches = board => {
   let newBoard = clone(board)

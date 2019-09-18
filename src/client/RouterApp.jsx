@@ -1,5 +1,3 @@
-import styled from 'styled-components'
-
 import Menu from "./Menu"
 import Contact from 'pages/contact/Contact'
 import About from 'pages/about/About'
@@ -20,7 +18,7 @@ import Bejeweled from './projects/bejeweled/Bejeweled'
 
 import { Switch, Route } from 'react-router-dom'
 
-export default function RouterApp (props) {
+export default function RouterApp () {
   return(
     <div>
       <Menu />

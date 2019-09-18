@@ -40,10 +40,10 @@ export function captureScreen(id, fileName) {
   }
 
   html2canvas(pngBody, options)
-    .then(function(canvas) {
-      var ctx = canvas.getContext("2d")
-      ctx.webkitImageSmoothingEnabled = false
+      .then(function(canvas) {
+        var ctx = canvas.getContext("2d")
+        ctx.webkitImageSmoothingEnabled = false
 
-      handlePng(canvas, fileName)
-    })
+        handlePng(canvas, fileName)
+      })
 }

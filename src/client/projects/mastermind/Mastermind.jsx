@@ -1,5 +1,5 @@
-import { repeat } from 'ramda'
 import { range } from 'lodash'
+import React from 'react'
 
 import Row from './Row'
 import Peg from './Peg'

@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import fonts from 'variables/fonts'
 import { Line } from './styles'
 
 const StyledHeader = styled.div`

@@ -14,7 +14,7 @@ const Icon = styled.span`
   ${props => icons[props.icon]}
   margin-right:6px;`
 
-export default function ContactInfo(props) {
+export default function ContactInfo() {
   return <StyledContactInfo>
     <Entry>
       <Icon icon="mail"></Icon>

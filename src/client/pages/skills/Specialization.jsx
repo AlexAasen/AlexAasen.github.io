@@ -65,6 +65,6 @@ export default function Specialization(){
   return [
     <H3 key="header">Specialization</H3>,
     <Section key="content" className="specialized-skills">
-    {specializationMarkup}
-  </Section>]
+      {specializationMarkup}
+    </Section>]
 }

@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import { useState } from 'react'
-import { range, each, flatten, delay, clone, every, maxBy } from 'lodash'
+import { range } from 'lodash'
 import { getRandom } from 'utils/helpers'
-import { findMatches, removeMatches, moveEntries } from './utils'
+import { findMatches, removeMatches } from './utils'
 
 const Page = styled.div`
   display: flex;
@@ -43,7 +43,7 @@ export default function Bejeweled(){
   const columns = 10
   const rows = 10
 
-  const [board, setBoard] = useState(init(rows, columns))
+  const [board] = useState(init(rows, columns))
 
   const boardMarkup = board.map((row, rowIdx) => {
     return row.map((col, colIdx) => {

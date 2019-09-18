@@ -24,27 +24,27 @@ const StyledPolaroid = styled(Polaroid)`
   }
   @media(max-width: 1000px){ min-width: calc(100% - 80px); }`
 
-  export default function PolaroidList(props){
-    const { width } = props
+export default function PolaroidList(props){
+  const { width } = props
 
-    return aboutEntries.map((entry, idx) => {
-      const { url, description } = entry
-      let marginTop = 10
+  return aboutEntries.map((entry, idx) => {
+    const { url, description } = entry
+    let marginTop = 10
 
-      if((width > 983) && (width <= 1583)){
-        if((idx !== 0) && (idx !== 1) && (idx % 2 !== 0)){
-          marginTop = -40
-        }
+    if((width > 983) && (width <= 1583)){
+      if((idx !== 0) && (idx !== 1) && (idx % 2 !== 0)){
+        marginTop = -40
       }
-      else if(width > 1583){
-        marginTop = ((idx !== 0) && (idx !== 1) && (idx !== 2) &&
-        ((idx - 4) % 3 === 0)) ? -40 :
-          ((idx !== 0) && (idx !== 2) && ((idx + 1) % 3 === 0) ? -90 : 10)
-      }
+    }
+    else if(width > 1583){
+      marginTop = ((idx !== 0) && (idx !== 1) && (idx !== 2) &&
+      ((idx - 4) % 3 === 0)) ? -40 :
+        ((idx !== 0) && (idx !== 2) && ((idx + 1) % 3 === 0) ? -90 : 10)
+    }
 
-      return <StyledPolaroid marginTop={marginTop}
-          description={description}
-          url={url}
-          key={idx}/>
-    })
-  }
+    return <StyledPolaroid marginTop={marginTop}
+      description={description}
+      url={url}
+      key={idx}/>
+  })
+}

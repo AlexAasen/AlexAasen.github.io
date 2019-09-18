@@ -2,8 +2,6 @@ import styled from 'styled-components'
 import { TimeLabel, WorkTitle, Line } from './styles'
 import Keywords from './Keywords'
 
-import cv from 'constants/cv'
-
 const Entry = styled.div`
   display: flex;
   margin-bottom: 30px;`

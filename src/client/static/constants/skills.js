@@ -1,20 +1,20 @@
 export const specialization = [
-    {
-      name: "Front-end web development",
-      icons: ["react", "html", "sass"],
-      description: "I'm a developer who loves to create beautiful and functional websites using Javascript, HTML5, Sass/css and libraries such as React and D3."
-    },
-    {
-      name: "Data-visualization",
-      icons: ["stackedBarchart"],
-      description: "I have a passion for creating data visualizations with the help of D3. With it I am able to visualize both simple and complicated data in a fun and meaningful way."
-    },
-    {
-      name: "Interaction design",
-      icons: ["heart"],
-      description: "With a background in game design, my focus lies in creating an enjoyable user-experience. I believe that a good design is one that feels intuitive, one where the user is guided through his/her experience without being told what to do."
-    }
-  ]
+  {
+    name: "Front-end web development",
+    icons: ["react", "html", "sass"],
+    description: "I'm a developer who loves to create beautiful and functional websites using Javascript, HTML5, Sass/css and libraries such as React and D3."
+  },
+  {
+    name: "Data-visualization",
+    icons: ["stackedBarchart"],
+    description: "I have a passion for creating data visualizations with the help of D3. With it I am able to visualize both simple and complicated data in a fun and meaningful way."
+  },
+  {
+    name: "Interaction design",
+    icons: ["heart"],
+    description: "With a background in game design, my focus lies in creating an enjoyable user-experience. I believe that a good design is one that feels intuitive, one where the user is guided through his/her experience without being told what to do."
+  }
+]
 
 export const skills = {
   name: "Web development",

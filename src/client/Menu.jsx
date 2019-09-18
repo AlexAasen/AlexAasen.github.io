@@ -46,7 +46,7 @@ const HoverLine = styled.span`
     width: 100%;
   }`
 
-export default function Menu(props){
+export default function Menu(){
   return <Header>
     <Logo />
     <Title>Alex Aasen</Title>

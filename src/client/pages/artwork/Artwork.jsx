@@ -1,7 +1,4 @@
 import styled from 'styled-components'
-import { useState } from 'react'
-
-import useWidth from 'hooks/useWidth'
 import feed from './feed'
 import loadImgs from './loadImgs'
 

@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-let { useState, useEffect } = require('react')
+let { useState } = require('react')
 
 import fonts from 'variables/fonts'
-import { captureScreen, handlePng } from 'api/exportPng'
+import { captureScreen } from 'api/exportPng'
 import cv from 'constants/cv'
 
 import Header from './Header'
@@ -40,7 +40,7 @@ const Download = styled(Button)`
   margin: auto;
   display: flex;`
 
-export default function Cv(props) {
+export default function Cv() {
   let [language, setLanguage] = useState('sv')
 
   const handleLanguage = lang => {
