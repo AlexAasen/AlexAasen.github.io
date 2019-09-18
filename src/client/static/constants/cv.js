@@ -11,7 +11,7 @@ export default {
       "Ramda", "HTML5", "Datavisualisering", "Responsiv webbutveckling",
       "Speldesign", "Photoshop"],
     career: [{
-      img: "client/static/img/cv/ahlens.png",
+      img: "src/client/static/img/cv/ahlens.png",
       company: "Åhléns",
       duration: "2019 Q2 - Pågående",
       title: "Frontend-utvecklare",
@@ -22,7 +22,7 @@ export default {
       "Projektet använder sig utav Kanban."
     },
     {
-      img:"client/static/img/cv/hiq-skane-ab.png",
+      img:"src/client/static/img/cv/hiq-skane-ab.png",
       company:"HiQ",
       duration:"2016 Q4 - 2019 Q2",
       title:"Frontend-utvecklare - Vården i Siffror",
@@ -42,7 +42,7 @@ export default {
       "av indikatorer och enheter och jämföra dessa med varandra i en förenklad vy."
     },
     {
-      img:"client/static/img/cv/H2u2DUjE_400x400.jpg",
+      img:"src/client/static/img/cv/H2u2DUjE_400x400.jpg",
       company:"Gamestop",
       duration:"2016 Q1 - 2016 Q3",
       title:"Butikssäljare",
@@ -52,7 +52,7 @@ export default {
       "titlar och produkter för att kunna ge kunder tips baserat på vad de tidigare köpt. "
     }],
     education: [{
-      img: "client/static/img/cv/c3l.png",
+      img: "src/client/static/img/cv/c3l.png",
       instutution: "Systemutveckling, Java",
       duration: "2015 Q3 - 2017 Q2",
       title: "C3L KY-utbildning",
@@ -62,7 +62,7 @@ export default {
       keywords: ["Java", "Avancerad java", "Android utveckling", "Javascript", "React"]
     },
     {
-      img: "client/static/img/cv/UU_logo.jpg",
+      img: "src/client/static/img/cv/UU_logo.jpg",
       instutution: "Speldesign och grafik",
       duration: "2011 Q3 - 2014 Q2",
       title: "Uppsala Universitet",
@@ -86,7 +86,7 @@ export default {
       "Ramda", "HTML5", "Datavisualization", "Responsive webb development",
       "Game design", "Photoshop"],
     career: [{
-      img: "client/static/img/cv/ahlens.png",
+      img: "src/client/static/img/cv/ahlens.png",
       company: "Åhléns",
       duration: "2019 Q2 - Ongoing",
       title: "Frontend-developer",
@@ -97,7 +97,7 @@ export default {
       "The project uses Kanban."
     },
     {
-      img:"client/static/img/cv/hiq-skane-ab.png",
+      img:"src/client/static/img/cv/hiq-skane-ab.png",
       company:"HiQ",
       duration:"2016 Q4 - 2019 Q2",
       title:"Frontend-developer - Vården i Siffror",
@@ -107,7 +107,7 @@ export default {
       "this we used technologies such as ReactJs and D3js. "
     },
     {
-      img:"client/static/img/cv/H2u2DUjE_400x400.jpg",
+      img:"src/client/static/img/cv/H2u2DUjE_400x400.jpg",
       company:"Gamestop",
       duration:"2016 Q1 - 2016 Q3",
       title:"Sales associate",
@@ -119,7 +119,7 @@ export default {
       "I want to sell."
     }],
     education: [{
-      img: "client/static/img/cv/c3l.png",
+      img: "src/client/static/img/cv/c3l.png",
       instutution: "Systemdevelopment, Java",
       duration: "2015 Q3 - 2017 Q2",
       title: "C3L Vocational university",
@@ -130,7 +130,7 @@ export default {
       keywords: ["Java", "Advanced java", "Android development", "Javascript", "React"]
     },
     {
-      img: "client/static/img/cv/UU_logo.jpg",
+      img: "src/client/static/img/cv/UU_logo.jpg",
       instutution: "Game design and graphics",
       duration: "2011 Q3 - 2014 Q2",
       title: "Uppsala University",

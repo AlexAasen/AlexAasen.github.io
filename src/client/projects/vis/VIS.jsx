@@ -12,7 +12,7 @@ const VideoHolder = styled.div`
 export default function VIS(){
   const images = [
     {
-      thumbnail: 'client/static/img/projects/vis/video.png',
+      thumbnail: 'src/client/static/img/projects/vis/video.png',
       component: <VideoHolder>
         <div style={{ padding:"56.25% 0 0 0", position: "relative" }}>
           <iframe
@@ -26,24 +26,24 @@ export default function VIS(){
       </VideoHolder>
     },
     {
-      thumbnail: 'client/static/img/projects/vis/measure.png',
-      component: <img className="image-entry" src='client/static/img/projects/vis/measure.png'></img>
+      thumbnail: 'src/client/static/img/projects/vis/measure.png',
+      component: <img className="image-entry" src='src/client/static/img/projects/vis/measure.png'></img>
     },
     {
-      thumbnail: "client/static/img/projects/vis/dashboard.png",
-      component: <img className="image-entry" src="client/static/img/projects/vis/dashboard.png"></img>
+      thumbnail: "src/client/static/img/projects/vis/dashboard.png",
+      component: <img className="image-entry" src="src/client/static/img/projects/vis/dashboard.png"></img>
     },
     {
-      thumbnail: "client/static/img/projects/vis/barchart.png",
-      component: <img className="image-entry" src="client/static/img/projects/vis/barchart.png"></img>
+      thumbnail: "src/client/static/img/projects/vis/barchart.png",
+      component: <img className="image-entry" src="src/client/static/img/projects/vis/barchart.png"></img>
     },
     {
-      thumbnail: "client/static/img/projects/vis/table.png",
-      component: <img className="image-entry" src="client/static/img/projects/vis/table.png"></img>
+      thumbnail: "src/client/static/img/projects/vis/table.png",
+      component: <img className="image-entry" src="src/client/static/img/projects/vis/table.png"></img>
     },
     {
-      thumbnail: "client/static/img/projects/vis/bartable.png",
-      component: <img className="image-entry" src="client/static/img/projects/vis/bartable.png"></img>
+      thumbnail: "src/client/static/img/projects/vis/bartable.png",
+      component: <img className="image-entry" src="src/client/static/img/projects/vis/bartable.png"></img>
     }
   ]
 

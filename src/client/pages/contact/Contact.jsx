@@ -54,7 +54,7 @@ export default function Contact() {
 
   return(
     <Page>
-      <Img src="client/static/img/swan.jpg" />
+      <Img src="src/client/static/img/swan.jpg" />
       <Info>
         <ConnectIcon />
         <H2>Let's connect!</H2>

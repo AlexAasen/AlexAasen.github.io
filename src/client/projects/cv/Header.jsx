@@ -35,13 +35,13 @@ const Specialization = styled.img`
 
 export default function Header(props){
   return <StyledHeader className="header-container">
-    <Portrait src="client/static/img/cv/me.jpg" />
+    <Portrait src="src/client/static/img/cv/me.jpg" />
     <Content>
       <Upper>
         <H1>Alexandra Aasen</H1>
-        <Specialization src="client/static/img/cv/1562726.png" />
-        <Specialization src="client/static/img/cv/react-logo.png" />
-        <Specialization src="client/static/img/cv/HTML5_CSS_JavaScript.png" />
+        <Specialization src="src/client/static/img/cv/1562726.png" />
+        <Specialization src="src/client/static/img/cv/react-logo.png" />
+        <Specialization src="src/client/static/img/cv/HTML5_CSS_JavaScript.png" />
       </Upper>
       <p className="career-title">{props.tagline}</p>
       <Line className="horizontal-line" />
