@@ -1,6 +1,5 @@
 import Menu from "./Menu"
 import Contact from 'pages/contact/Contact'
-import About from 'pages/about/About'
 import Skills from 'pages/skills/Skills'
 import Artwork from 'pages/artwork/Artwork'
 

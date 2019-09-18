@@ -19,8 +19,6 @@ const NewGame = styled(Button)`
   font-size: 18px;
   padding: 24px 25px;`
 
-console.log(setupBoard)
-
 class G2048 extends React.Component {
   constructor(props){
     super(props)
