@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const path = require('path')
 
-app.use('/dist', express.static('dist'))
+app.use('/build', express.static('build'))
 app.use('/client', express.static('client'))
 
 app.get('*', function(req, res) {
