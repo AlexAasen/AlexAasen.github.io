@@ -5,7 +5,7 @@ const path = require('path')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 
-const DIST_DIR = path.resolve(__dirname, 'dist')
+const DIST_DIR = path.resolve(__dirname, 'build')
 const APP_DIR = path.resolve(__dirname, 'client')
 const CSS_DIR = path.resolve(__dirname, 'client/scss')
 
