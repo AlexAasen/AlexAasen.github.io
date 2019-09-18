@@ -1,14 +1,14 @@
 {
   "name": "alex-aasen",
   "version": "0.0.1",
-  "homepage": "http://alexaasen.github.io/alex-aasen",
+  "homepage": "https://alexaasen.github.io/alex-aasen",
   "author": "Alex Aasen",
   "description": "Alex Aasen github io website",
   "main": "index.js",
   "scripts": {
     "local": "webpack -d --watch",
     "build": "webpack -p",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d src/build",
     "server": "nodemon server.js"
   },
   "engines": {
