@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "shippedProposals": true
+    }],
+    "@babel/react",
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-optional-chaining",
+    [ "babel-plugin-webpack-alias", { "config": "./alias.js" } ]
+  ]
+}
