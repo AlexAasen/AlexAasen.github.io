@@ -22,7 +22,8 @@ const Grid = styled.div`
   @media (min-width: 1950px){ grid-template-columns: repeat(6, 1fr); }`
 
 const GridItem = styled(NavLink)`
-  border: 1px solid #c7c6c6;`
+  border: 1px solid #c7c6c6;
+  color: black;`
 
 const Info = styled.div`
   border-top: 1px solid #c7c6c6;

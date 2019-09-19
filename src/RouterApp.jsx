@@ -34,7 +34,7 @@ export default function RouterApp () {
         <Route exact path='/projects/simon' component={Simon}/>
         <Route exact path='/projects/bejeweled' component={Bejeweled}/>
 
-        <Route exact path='/' component={Skills}/>
+        <Route exact path='/' component={Projects}/>
         <Route exact path='/skills' component={Skills}/>
         <Route exact path='/artwork' component={Artwork}/>
         <Route exact path='/contact' component={Contact}/>
