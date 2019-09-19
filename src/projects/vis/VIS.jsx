@@ -7,7 +7,8 @@ const Page = styled.div``
 const VideoHolder = styled.div`
   max-width: 1200px;
   margin: auto;
-  width: 100%;`
+  width: 100%;
+  max-height: 800px;`
 
 export default function VIS(){
   const images = [
@@ -27,23 +28,23 @@ export default function VIS(){
     },
     {
       thumbnail: 'src/static/img/projects/vis/measure.png',
-      component: <img className="image-entry" src='src/static/img/projects/vis/measure.png'></img>
+      component: <img className="image-entry" src='src/static/img/projects/vis/measure.PNG'></img>
     },
     {
-      thumbnail: "src/static/img/projects/vis/dashboard.png",
-      component: <img className="image-entry" src="src/static/img/projects/vis/dashboard.png"></img>
+      thumbnail: "src/static/img/projects/vis/dashboard.PNG",
+      component: <img className="image-entry" src="src/static/img/projects/vis/dashboard.PNG"></img>
     },
     {
-      thumbnail: "src/static/img/projects/vis/barchart.png",
-      component: <img className="image-entry" src="src/static/img/projects/vis/barchart.png"></img>
+      thumbnail: "src/static/img/projects/vis/barchart.PNG",
+      component: <img className="image-entry" src="src/static/img/projects/vis/barchart.PNG"></img>
     },
     {
-      thumbnail: "src/static/img/projects/vis/table.png",
-      component: <img className="image-entry" src="src/static/img/projects/vis/table.png"></img>
+      thumbnail: "src/static/img/projects/vis/table.PNG",
+      component: <img className="image-entry" src="src/static/img/projects/vis/table.PNG"></img>
     },
     {
-      thumbnail: "src/static/img/projects/vis/bartable.png",
-      component: <img className="image-entry" src="src/static/img/projects/vis/bartable.png"></img>
+      thumbnail: "src/static/img/projects/vis/bartable.PNG",
+      component: <img className="image-entry" src="src/static/img/projects/vis/bartable.PNG"></img>
     }
   ]
 

@@ -7,7 +7,8 @@ import Button from 'components/Button'
 
 const Page = styled.div`
   display: flex;
-  flex-direction: column;`
+  flex-direction: column;
+  margin-bottom: 80px;`
 
 const Board = styled.div`
   margin: 20px auto;
