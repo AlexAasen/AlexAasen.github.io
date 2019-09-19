@@ -4,11 +4,10 @@
   "homepage": "https://alexaasen.github.io/alex-aasen",
   "author": "Alex Aasen",
   "description": "Alex Aasen github io website",
-  "main": "src/Index.js",
   "scripts": {
     "local": "webpack -d --watch",
     "build": "webpack -p",
-    "deploy": "gh-pages -d src/build",
+    "deploy": "gh-pages -d build",
     "server": "nodemon server.js"
   },
   "engines": {
