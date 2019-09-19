@@ -1,6 +1,6 @@
 const path = require('path')
 
-const APP_DIR = path.resolve(__dirname, 'src/client')
+const APP_DIR = path.resolve(__dirname, 'src')
 
 module.exports = {
   resolve: {

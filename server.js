@@ -2,8 +2,8 @@ const express = require('express')
 const app = express()
 const path = require('path')
 
-app.use('/src/build', express.static('src/build'))
-app.use('/src/client', express.static('src/client'))
+app.use('/bundles', express.static('bundles'))
+app.use('/src', express.static('src'))
 
 app.get('*', function(req, res) {
     res.sendFile(path.join(__dirname, '/index.html'))

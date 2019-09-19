@@ -5,9 +5,9 @@ const path = require('path')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 
-const DIST_DIR = path.resolve(__dirname, 'src/build')
-const APP_DIR = path.resolve(__dirname, 'src/client')
-const CSS_DIR = path.resolve(__dirname, 'src/client/scss')
+const DIST_DIR = path.resolve(__dirname, 'bundles')
+const APP_DIR = path.resolve(__dirname, 'src')
+const CSS_DIR = path.resolve(__dirname, 'src/scss')
 
 const alias = require('./alias')
 
@@ -67,7 +67,7 @@ module.exports = (env, argv) => {
 
   return {
     entry: {
-      app: APP_DIR + '/index',
+      app: APP_DIR + '/Index',
       css: CSS_DIR + '/main'
     },
     devtool: development ? 'inline-source-map' : false,
