@@ -129,7 +129,7 @@ export default class ForceGraph extends Component {
     }
 
     function tick() {
-      if(location.pathname !== '/skills') return
+      if(location.hash !== '#/skills') return
 
       svg.selectAll("text")
           .attr("dy", 5)
