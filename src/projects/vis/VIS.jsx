@@ -13,7 +13,7 @@ const VideoHolder = styled.div`
 export default function VIS(){
   const images = [
     {
-      thumbnail: 'src/static/img/projects/vis/video.png',
+      thumbnail: 'src/static/img/projects/vis/video.PNG',
       component: <VideoHolder>
         <div style={{ padding:"56.25% 0 0 0", position: "relative" }}>
           <iframe
@@ -27,7 +27,7 @@ export default function VIS(){
       </VideoHolder>
     },
     {
-      thumbnail: 'src/static/img/projects/vis/measure.png',
+      thumbnail: 'src/static/img/projects/vis/measure.PNG',
       component: <img className="image-entry" src='src/static/img/projects/vis/measure.PNG'></img>
     },
     {
