@@ -32,6 +32,7 @@ const Action = styled(NavLink)`
   font-family: 'Josefin Sans';
   text-decoration: none;
   cursor: pointer;
+  color: black;
   &:before{ content: ${props => "'" + props.label + "'" }; }
   &.active span { width: 100%; }`
 
