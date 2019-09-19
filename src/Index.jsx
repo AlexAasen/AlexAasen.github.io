@@ -1,11 +1,11 @@
 const React = require('react')
 const ReactDOM = require('react-dom')
-const { BrowserRouter } = require('react-router-dom')
+const { HashRouter } = require('react-router-dom')
 
 import RouterApp from './RouterApp'
 
 ReactDOM.render((
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <RouterApp />
-  </BrowserRouter>
+  </HashRouter>
 ), document.getElementById("alex-aasen-io-website"))
