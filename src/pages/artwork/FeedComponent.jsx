@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import handleResize from './handleResize'
 
 const Section = styled.div`
@@ -12,8 +12,13 @@ const List = styled.ol`
   margin: 0;
   flex: 1;`
 
+const anim = keyframes`
+  0% { opacity: 0; }
+  100% { opacity: 1; }`
+
 const Img = styled.img`
   transition: all .3s;
+  animation: ${anim} .3s ease;
   margin: ${props => props.onlyMarginBot ? "0 0 20px 0" : "0 20px 20px 0"};
   width: ${props => props.width};
   height: ${props => props.height};`

@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react'
 import { each, min, findIndex, range } from 'lodash'
+import useWidth from 'hooks/useWidth'
 
 export default function handleResize(imgs){
   const [dividedImgs, setDividedImgs] = useState([])
+  const width = useWidth()
 
   const divide = () => {
     const container = document.getElementById("newsfeed-content")
@@ -31,11 +33,7 @@ export default function handleResize(imgs){
 
   useEffect(() => {
     divide()
-    window.addEventListener('resize', divide)
-    return () => {
-      window.removeEventListener('resize', divide)
-    }
-  }, [])
+  }, [imgs, width])
 
   return dividedImgs
 }

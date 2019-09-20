@@ -1,24 +1,23 @@
 import { useState, useEffect } from 'react'
-import { each } from 'lodash'
+import { concat } from 'lodash'
 
 export default function loadImgs(feed) {
-  const [imgs, setImgs] = useState([])
+  const [processed, setProcessed] = useState([])
+
+  const loadImage = path => new Promise(resolve => {
+    const img = new Image()
+    img.onload = () => resolve(img)
+    img.src = path
+  })
 
   useEffect(() => {
-    let promises = []
+    if(processed.length < feed.length){
+      feed[processed.length]
+      loadImage(feed[processed.length]).then(result => {
+        setProcessed(concat(processed, result))
+      })
+    }
+  })
 
-    const loadImage = path => new Promise(resolve => {
-      const img = new Image()
-      img.onload = () => resolve(img)
-      img.src = path
-    })
-
-    each(feed, x => promises.push(loadImage(x)))
-
-    Promise.all(promises).then(result => {
-      setImgs(result)
-    })
-  }, [])
-
-  return imgs
+  return processed
 }
