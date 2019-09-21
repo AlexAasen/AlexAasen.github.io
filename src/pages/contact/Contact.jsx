@@ -16,7 +16,9 @@ const Page = styled.div`
 const Info = styled.div`
   display: flex;
   flex-direction: column;
-  margin: auto auto auto 25px;`
+  margin: auto auto auto 25px;
+  @media (max-width: 1250px){ margin-left: 0; }
+  @media (max-width: 1020px){ margin: 0 auto; }`
 
 const ConnectIcon = styled.span`
   font-size: 170px;
@@ -29,7 +31,8 @@ const ConnectIcon = styled.span`
     color: #2c3235;
     transition: all .8s ease;
   }
-  &:before{ content: "\\e91b" }`
+  &:before{ content: "\\e91b" }
+  @media (max-width: 1020px){ margin-top: 20px; }`
 
 const H2 = styled.h2`
   ${fonts.arapey}
@@ -41,7 +44,9 @@ const H4 = styled.h4`
 
 const Img = styled.img`
   margin: 0 25px 0 auto;
-  height: calc(100vh - 297px);`
+  height: calc(100vh - 297px);
+  @media (max-width: 1250px){ max-height: 650px; }
+  @media (max-width: 1020px){ display: none; }`
 
 const SocialMenu = styled.ol`
   display: flex;
