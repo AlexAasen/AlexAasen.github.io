@@ -22,7 +22,7 @@
     "gh-pages": "^2.1.1",
     "html2canvas": "^1.0.0-alpha.12",
     "js-cookie": "^2.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "lodash.template": "^4.5.0",
     "query-string": "^4.2.3",
     "ramda": "^0.26.1",
