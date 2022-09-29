@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "bluebird": "^3.5.4",
-    "d3": "^5.9.2",
+    "d3": "^7.6.1",
     "deep-diff": "^1.0.2",
     "express": "^4.13.3",
     "file-saver": "^2.0.2",
